@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.threads.com https://www.threads.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; frame-src https://www.facebook.com https://www.threads.com https://www.threads.net; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>我們認識的蔣萬安｜公開貼文整理</title>
+  <meta name="description" content="整理親友、同學與工作夥伴公開寫下、可回到原文查證的第一人稱故事。非官方網站。">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">公開貼文整理・非官方網站</p>
+    <h1>我們認識的蔣萬安</h1>
+    <p class="subtitle">從公開原文，看見一路認識他的人怎麼說。</p>
+    <p class="lede">本站只整理作者公開發布、可回到原平台核對的第一人稱經驗，不代替作者背書，也不自行改寫成證詞。</p>
+    <p class="share">
+      <button type="button" class="primary-button" id="share-button">分享這面牆</button>
+      <span id="share-status" role="status"></span>
+    </p>
+  </header>
+
+  <main>
+    <section aria-labelledby="wall-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">親友見證</p>
+          <h2 id="wall-title">公開貼文牆</h2>
+        </div>
+        <p class="summary" id="summary"></p>
+      </div>
+
+      <div class="notice">
+        <strong>收錄原則</strong>
+        <span>公開、第一人稱、關係可說明、原文仍可開啟。貼文著作權與內容責任屬原作者。</span>
+      </div>
+
+      <div class="controls">
+        <label class="search" for="post-search">
+          <span>搜尋貼文</span>
+          <input type="search" id="post-search" placeholder="作者、關係、事件或關鍵字" autocomplete="off">
+        </label>
+        <div class="filter-group" id="relation-group" hidden>
+          <span class="filter-label">關係</span>
+          <div class="filters" id="relation-filters" data-group="relation" aria-label="依關係篩選"></div>
+        </div>
+        <div class="filter-group" id="trait-group" hidden>
+          <span class="filter-label">親友提到的特質</span>
+          <div class="filter-content">
+            <p class="filter-disclaimer">這是貼文作者的描述，不代表本站判斷。</p>
+            <div class="filters" id="trait-filters" data-group="trait" aria-label="依親友提到的特質篩選"></div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">平台</span>
+          <div class="filters" id="platform-filters" data-group="platform" aria-label="依平台篩選">
+            <button type="button" data-filter="all" aria-pressed="true">全部</button>
+            <button type="button" data-filter="facebook" aria-pressed="false">Facebook</button>
+            <button type="button" data-filter="threads" aria-pressed="false">Threads</button>
+            <button type="button" data-filter="article" aria-pressed="false">文章</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="status" id="status" role="status"></p>
+      <div class="post-list" id="post-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>本站為公開資料整理示意，並非蔣萬安本人、親友、競選團隊、台北市政府或任何政黨的官方網站。</p>
+    <p>收錄內容應以原始貼文為準；若原文下架、改為非公開或關係說明無法核對，應移除收錄。</p>
+  </footer>
+
+  <script src="posts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
