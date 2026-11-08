@@ -60,5 +60,14 @@ const posts = [
     note: "作者自稱是蔣萬安的同學",
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@shulingtseng/post/DfWGq0IAdv2" data-text-post-version="0" id="ig-tp-DfWGq0IAdv2" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@shulingtseng/post/DfWGq0IAdv2" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
+  },
+  {
+    platform: "threads",
+    author: "@marlasingerffxiv",
+    relation: "建中同學",
+    url: "https://www.threads.com/@marlasingerffxiv/post/De7Db0OE38n",
+    note: "作者以建中同學身分回憶蔣萬安會掃地",
+    embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@marlasingerffxiv/post/De7Db0OE38n" data-text-post-version="0" id="ig-tp-De7Db0OE38n" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@marlasingerffxiv/post/De7Db0OE38n" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
+<script async src="https://www.threads.com/embed.js"></script>`
   }
 ];
