@@ -1,8 +1,8 @@
 // 親友公開貼文資料。
 //
 // 只收錄可核對的公開第一人稱原文；不要自行撰寫或補完任何人的證詞。
-// 欄位與 shen-post-wall 相容：platform、author、url、relation、note、keywords、
-// traits、length、height、title、source、excerpt、embedHtml。
+// 欄位：platform、author、url、relation、note、keywords、length、height、
+// title、source、excerpt、embedHtml。
 //
 // 範例（不是實際證詞，請勿直接上線）：
 // {
@@ -12,7 +12,6 @@
 //   url: "https://www.facebook.com/.../posts/...",
 //   note: "關係的可核對簡述",
 //   keywords: ["事件", "地點"],
-//   traits: ["原文明確提到的特質"],
 //   length: 500,
 //   height: 820
 // }
@@ -23,7 +22,6 @@ const posts = [
     author: "@master.taiwanno1",
     url: "https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9",
     note: "",
-    traits: ["沒有誠信"],
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" data-text-post-version="0" id="ig-tp-DebIIqTDR_9" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
@@ -42,7 +40,6 @@ const posts = [
     relation: "國中同學",
     url: "https://www.threads.com/@catenaccio1202/post/Ddp5vovic5i",
     note: "自述為蔣萬安的鄰座國中同學",
-    traits: ["膽小謹慎", "無聊"],
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@catenaccio1202/post/Ddp5vovic5i" data-text-post-version="0" id="ig-tp-Ddp5vovic5i" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@catenaccio1202/post/Ddp5vovic5i" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
@@ -52,7 +49,6 @@ const posts = [
     relation: "復興國小同學家人",
     url: "https://www.threads.com/@lilly_thelilly/post/DfQE8FHlwYB",
     note: "作者表示妹妹與蔣萬安同班，且在同一朋友圈",
-    traits: ["單純", "友善", "沒有心眼"],
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@lilly_thelilly/post/DfQE8FHlwYB" data-text-post-version="0" id="ig-tp-DfQE8FHlwYB" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@lilly_thelilly/post/DfQE8FHlwYB" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   }

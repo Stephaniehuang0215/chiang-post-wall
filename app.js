@@ -3,7 +3,7 @@
 
   var PLATFORM_LABELS = { facebook: "Facebook", threads: "Threads", article: "文章" };
   var RELATION_ORDER = ["家人", "同學", "師長", "學生", "朋友", "工作夥伴", "合作夥伴", "其他受過幫助的人"];
-  var current = { platform: "all", relation: "all", trait: "all", query: "" };
+  var current = { platform: "all", relation: "all", query: "" };
   var index = [];
   var listEl = document.getElementById("post-list");
   var statusEl = document.getElementById("status");
@@ -138,12 +138,10 @@
     footer.appendChild(actions);
     card.appendChild(footer);
 
-    var traits = Array.isArray(post.traits) ? post.traits : [];
     var keywords = Array.isArray(post.keywords) ? post.keywords : [];
     index.push({
       card: card,
-      traits: traits,
-      text: normalize([post.author, post.relation, post.note, post.title].concat(traits, keywords).join(" "))
+      text: normalize([post.author, post.relation, post.note, post.title].concat(keywords).join(" "))
     });
     return card;
   }
@@ -159,11 +157,9 @@
 
   function buildDynamicFilters() {
     var relations = [];
-    var traits = {};
     index.forEach(function (item) {
       var relation = item.card.dataset.relation;
       if (relation && relations.indexOf(relation) === -1) relations.push(relation);
-      item.traits.forEach(function (trait) { traits[trait] = (traits[trait] || 0) + 1; });
     });
 
     if (relations.length) {
@@ -175,13 +171,6 @@
       document.getElementById("relation-group").hidden = false;
     }
 
-    var traitNames = Object.keys(traits).sort(function (a, b) { return traits[b] - traits[a]; });
-    if (traitNames.length) {
-      var traitNav = document.getElementById("trait-filters");
-      traitNav.appendChild(filterButton("all", "全部"));
-      traitNames.forEach(function (trait) { traitNav.appendChild(filterButton(trait, trait, traits[trait])); });
-      document.getElementById("trait-group").hidden = false;
-    }
   }
 
   function applyFilters() {
@@ -190,7 +179,6 @@
     index.forEach(function (item) {
       var show = (current.platform === "all" || item.card.dataset.platform === current.platform) &&
         (current.relation === "all" || item.card.dataset.relation === current.relation) &&
-        (current.trait === "all" || item.traits.indexOf(current.trait) !== -1) &&
         terms.every(function (term) { return item.text.indexOf(term) !== -1; });
       item.card.hidden = !show;
       if (show) visible += 1;
@@ -201,7 +189,7 @@
     });
     statusEl.textContent = index.length === 0
       ? "尚未收錄貼文。請先在 posts.js 加入已核對的公開原文。"
-      : (visible === 0 ? "目前沒有符合條件的貼文。" : ((terms.length || current.platform !== "all" || current.relation !== "all" || current.trait !== "all") ? "符合 " + visible + " 篇" : ""));
+      : (visible === 0 ? "目前沒有符合條件的貼文。" : ((terms.length || current.platform !== "all" || current.relation !== "all") ? "符合 " + visible + " 篇" : ""));
   }
 
   function init() {
