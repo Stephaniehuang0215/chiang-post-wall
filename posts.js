@@ -97,11 +97,4 @@ const posts = [
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@catenaccio1202/post/DfeqQJZCcGd" data-text-post-version="0" id="ig-tp-DfeqQJZCcGd" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@catenaccio1202/post/DfeqQJZCcGd" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
-  {
-    platform: "facebook",
-    author: "Facebook 貼文",
-    relation: "小學同學",
-    url: "https://www.facebook.com/share/p/1Ciyg39kdx/",
-    height: 820,
-  },
 ];
