@@ -82,10 +82,11 @@ const posts = [
   },
   {
     platform: "facebook",
-    author: "Facebook 貼文",
-    url: "https://www.facebook.com/story.php?story_fbid=10165209101661252&id=782171251",
+    author: "Vivian Liu",
+    relation: "國小同班同學",
+    url: "https://www.facebook.com/vivian.liu.94214/posts/pfbid0qAomYMQyYb9hr9n4mtyqZPEXxt2zFxuD6zDkbH4i71d5RnePwYBUPGNTj6xdjxh4l",
     height: 820,
-    note: "",
+    note: "作者自述與蔣萬安國小同班，並回憶兒時互動與多年後重逢",
   },
   {
     platform: "threads",
