@@ -97,4 +97,13 @@ const posts = [
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@catenaccio1202/post/DfeqQJZCcGd" data-text-post-version="0" id="ig-tp-DfeqQJZCcGd" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@catenaccio1202/post/DfeqQJZCcGd" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
+  {
+    platform: "threads",
+    author: "@servantofkingdom",
+    relation: "政大外交學弟",
+    url: "https://www.threads.com/@servantofkingdom/post/DedjSE3I4qg",
+    note: "作者自述為小三屆學弟，分享修課時旁觀的印象",
+    embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@servantofkingdom/post/DedjSE3I4qg" data-text-post-version="0" id="ig-tp-DedjSE3I4qg" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@servantofkingdom/post/DedjSE3I4qg" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
+<script async src="https://www.threads.com/embed.js"></script>`
+  },
 ];
