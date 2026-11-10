@@ -19,6 +19,15 @@
 const posts = [
   {
     platform: "threads",
+    author: "@danminator.taiwan",
+    relation: "政大外交系直屬學弟",
+    url: "https://www.threads.com/@danminator.taiwan/post/Deesk13mR6v",
+    note: "作者以政大外交系直屬學弟身分分享觀察",
+    embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@danminator.taiwan/post/Deesk13mR6v" data-text-post-version="0" id="ig-tp-Deesk13mR6v" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@danminator.taiwan/post/Deesk13mR6v" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
+<script async src="https://www.threads.com/embed.js"></script>`
+  },
+  {
+    platform: "threads",
     author: "@sean0.0tree",
     relation: "前台北市政府員工",
     url: "https://www.threads.com/@sean0.0tree/post/DfPJKtBE-TG",
@@ -33,15 +42,6 @@ const posts = [
     url: "https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9",
     note: "作者為蔣萬安的政大同學",
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" data-text-post-version="0" id="ig-tp-DebIIqTDR_9" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
-<script async src="https://www.threads.com/embed.js"></script>`
-  },
-  {
-    platform: "threads",
-    author: "@chilionyang",
-    relation: "政大外交直屬學弟",
-    url: "https://www.threads.com/@chilionyang/post/DegAMJqk_XY",
-    note: "蔣萬安的政大外交系直屬學弟",
-    embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@chilionyang/post/DegAMJqk_XY" data-text-post-version="0" id="ig-tp-DegAMJqk_XY" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@chilionyang/post/DegAMJqk_XY" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
   {
