@@ -107,4 +107,14 @@ const posts = [
     embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" data-text-post-version="0" id="ig-tp-DebIIqTDR_9" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@master.taiwanno1/post/DebIIqTDR_9" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
 <script async src="https://www.threads.com/embed.js"></script>`
   },
+  {
+    platform: "threads",
+    author: "@karasuxxin",
+    relation: "蔣萬安妻子的高中學妹",
+    url: "https://www.threads.com/@karasuxxin/post/Dc0Guf5Cbls",
+    note: "作者自述高中時聽學姐石舫亭返校演講，分享多年後對婚姻與事業選擇的體會",
+    keywords: ["石舫亭", "高中", "婚姻"],
+    embedHtml: `<blockquote class="text-post-media" data-text-post-permalink="https://www.threads.com/@karasuxxin/post/Dc0Guf5Cbls" data-text-post-version="0" id="ig-tp-Dc0Guf5Cbls" style="background:#FFF; border:1px solid #00000026; border-radius:16px; max-width:540px; margin:1px; min-width:270px; padding:0; width:calc(100% - 2px);"><a href="https://www.threads.com/@karasuxxin/post/Dc0Guf5Cbls" style="display:block; padding:24px 0; text-align:center; text-decoration:none; color:#000; font-family:-apple-system, BlinkMacSystemFont, sans-serif;" target="_blank">在 Threads 查看</a></blockquote>
+<script async src="https://www.threads.com/embed.js"></script>`
+  },
 ];
